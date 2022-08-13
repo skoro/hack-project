@@ -1,4 +1,9 @@
 {
+    "name": "skoro/hack-project",
+    "type": "project",
+    "description": "Hack lang project boilerplate",
+    "keywords": ["hack", "hhvm"],
+    "homepage": "https://github.com/skoro/hack-project",
     "require": {
         "hhvm/hhvm-autoload": "^3.3",
         "hhvm/hsl": "^4.108"
