@@ -6,7 +6,6 @@
     "keywords": ["hack", "hhvm"],
     "homepage": "https://github.com/skoro/hack-project",
     "require": {
-        "hhvm": "^4.164",
         "hhvm/hhvm-autoload": "^3.3",
         "hhvm/hsl": "^4.108"
     },
