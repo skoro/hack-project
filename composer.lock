@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e2afdc57ec931ab3670363f1994aa532",
+    "content-hash": "4ffd34e41112eb314c5f0d38a7497ff7",
     "packages": [
         {
             "name": "hhvm/hhvm-autoload",
@@ -271,22 +271,22 @@
         },
         {
             "name": "hhvm/hhast",
-            "version": "v4.161.2",
+            "version": "v4.166.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hhvm/hhast.git",
-                "reference": "0a9ffc51a94188c0c1cc6f5389ea8ebf596d8475"
+                "reference": "dee869dd04b3c9469ae89339c47fe999f7498d27"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hhvm/hhast/zipball/0a9ffc51a94188c0c1cc6f5389ea8ebf596d8475",
-                "reference": "0a9ffc51a94188c0c1cc6f5389ea8ebf596d8475",
+                "url": "https://api.github.com/repos/hhvm/hhast/zipball/dee869dd04b3c9469ae89339c47fe999f7498d27",
+                "reference": "dee869dd04b3c9469ae89339c47fe999f7498d27",
                 "shasum": ""
             },
             "require": {
                 "facebook/difflib": "^1.0.0",
                 "facebook/hh-clilib": "^2.5.0rc1",
-                "hhvm": "^4.161",
+                "hhvm": "^4.166",
                 "hhvm/type-assert": "^4.2.2"
             },
             "require-dev": {
@@ -315,9 +315,9 @@
             "description": "A mutable AST library for Hack with linting and code migrations",
             "support": {
                 "issues": "https://github.com/hhvm/hhast/issues",
-                "source": "https://github.com/hhvm/hhast/tree/v4.161.2"
+                "source": "https://github.com/hhvm/hhast/tree/v4.166.0"
             },
-            "time": "2022-07-09T17:27:26+00:00"
+            "time": "2022-08-08T21:13:02+00:00"
         },
         {
             "name": "hhvm/hsl-experimental",
@@ -413,9 +413,7 @@
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": {
-        "hhvm": "^4.164"
-    },
+    "platform": [],
     "platform-dev": [],
     "plugin-api-version": "2.3.0"
 }
