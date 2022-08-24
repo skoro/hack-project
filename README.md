@@ -4,14 +4,14 @@ This is [Hack](https://docs.hhvm.com/hack/) project boilerplate based on steps f
 
 ## Getting started
 
-Make sure [Docker](https://docs.docker.com/engine/install/) is installed on your development environment, this is the most preferable way to start with Hack.
+Make sure [Docker](https://docs.docker.com/engine/install/) is installed on your development environment, this is the most preferable way to get started with Hack language.
 
 Create a project, don't omit `--no-install` option, dependencies will be installed later on:
 ```sh
 docker run --rm -it -v ${PWD}:/app composer create-project -s dev --no-install skoro/hack-project YOUR_PROJECT
 ```
 
-Change to the project folder and create hhvm container:
+Change to the project folder and create a hhvm container:
 ```sh
 cd YOUR-PROJECT
 docker run -d -it --name YOUR_PROJECT -v ${PWD}:/mnt/project -w /mnt/project hhvm/hhvm
