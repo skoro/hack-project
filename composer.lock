@@ -271,16 +271,16 @@
         },
         {
             "name": "hhvm/hhast",
-            "version": "v4.166.0",
+            "version": "v4.166.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hhvm/hhast.git",
-                "reference": "dee869dd04b3c9469ae89339c47fe999f7498d27"
+                "reference": "02d91f2ea8e6cfd81a1a0508f7bc3c571c089a53"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hhvm/hhast/zipball/dee869dd04b3c9469ae89339c47fe999f7498d27",
-                "reference": "dee869dd04b3c9469ae89339c47fe999f7498d27",
+                "url": "https://api.github.com/repos/hhvm/hhast/zipball/02d91f2ea8e6cfd81a1a0508f7bc3c571c089a53",
+                "reference": "02d91f2ea8e6cfd81a1a0508f7bc3c571c089a53",
                 "shasum": ""
             },
             "require": {
@@ -315,9 +315,9 @@
             "description": "A mutable AST library for Hack with linting and code migrations",
             "support": {
                 "issues": "https://github.com/hhvm/hhast/issues",
-                "source": "https://github.com/hhvm/hhast/tree/v4.166.0"
+                "source": "https://github.com/hhvm/hhast/tree/v4.166.3"
             },
-            "time": "2022-08-08T21:13:02+00:00"
+            "time": "2022-11-03T19:32:36+00:00"
         },
         {
             "name": "hhvm/hsl-experimental",
