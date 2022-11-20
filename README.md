@@ -6,20 +6,20 @@ This is [Hack](https://docs.hhvm.com/hack/) project boilerplate based on steps f
 
 Make sure [Docker](https://docs.docker.com/engine/install/) is installed on your development environment, this is the most preferable way to get started with Hack language.
 
-Create a project, don't omit `--no-install` option, dependencies will be installed later on:
+Build the application image:
 ```sh
-docker run --rm -it -v ${PWD}:/app composer create-project -s dev --no-install skoro/hack-project YOUR_PROJECT
+docker-compose build --no-cache
 ```
 
-Change to the project folder and create a hhvm container:
+Install dependencies:
 ```sh
-cd YOUR-PROJECT
-docker run -d -it --name YOUR_PROJECT -v ${PWD}:/mnt/project -w /mnt/project hhvm/hhvm
+docker-compose up -d
+docker-compose exec hhvm composer install
 ```
 
-Now dependencies can be installed:
+Check that the application is working:
 ```sh
-docker exec -it YOUR_PROJECT php composer.phar install
+curl http://localhost/
 ```
 
 ## VSCode
@@ -27,11 +27,4 @@ docker exec -it YOUR_PROJECT php composer.phar install
 Install [Hack](https://marketplace.visualstudio.com/items?itemName=pranayagarwal.vscode-hack) extension, open the extension settings and configure the following parameters:
 - Remote mode: `docker`
 - Container name: `YOUR_PROJECT`
-- Workspace path: `/mnt/project`
-
-## FAQ
-
-- Why is `composer.phar` here ?
-
-    The hhvm docker image doesn't contain `composer` which is needed for 
-    installing project dependencies.
+- Workspace path: `/var/www`
