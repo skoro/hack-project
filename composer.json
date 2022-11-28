@@ -3,7 +3,7 @@
     "type": "project",
     "license": "MIT",
     "description": "Hack lang project boilerplate",
-    "keywords": ["hack", "hhvm"],
+    "keywords": ["hack", "hhvm", "hacklang"],
     "homepage": "https://github.com/skoro/hack-project",
     "require": {
         "hhvm/hhvm-autoload": "^3.3",
